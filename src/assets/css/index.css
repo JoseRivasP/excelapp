@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.none-border {
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+
+.scrollcase {
+  overflow-x: scroll;
+  height: max-content;
+  width: 100%;
+}
+
+.form-control {
+  width: max-content !important;
+}
+
+#formFile {
+  width: 100% !important;
+}
+
+.formData {
+  width: 100% !important;
+}
+
+th {
+  position: sticky;
+  top: -0.7rem;
+  background-color: white !important;
+  z-index: 999;
+}
+
+thead tr {
+  background-color: white !important;
+  padding-top: -0.5rem !important;
+}
